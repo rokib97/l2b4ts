@@ -1,5 +1,4 @@
 // nullable type
-
 const searchName = (value: string | null) => {
   if (value) {
     console.log(`Searching...`);
@@ -7,7 +6,6 @@ const searchName = (value: string | null) => {
     console.log("There is nothing to search...");
   }
 };
-
 searchName(null);
 
 // unknown type

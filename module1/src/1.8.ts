@@ -1,6 +1,5 @@
 {
   // destructuring
-
   const user = {
     id: 123,
     name: {
@@ -18,7 +17,6 @@
   } = user;
 
   //   array
-
   const numbers: number[] = [12, 22, 424, 2343, 234, 344, 22, 23, 1, 1111];
   const [, , firstName, second, third, ...rest] = numbers;
 }
