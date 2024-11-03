@@ -1,4 +1,5 @@
 {
+  // constraints
   type UserMustHaveValue = {
     id: number;
     name: string;
