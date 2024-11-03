@@ -16,7 +16,6 @@
     age: 27,
     role: "captain",
   };
-
   interface StudentOneInterface {
     name: string;
     age: number;
@@ -34,7 +33,6 @@
   interface MixWithType extends StudentOneTypeWithRoll {
     id: number;
   }
-
   interface NewProperty {
     random: number | string;
   }
@@ -55,7 +53,6 @@
   const rollNumbersTwo: RollNumbersInterface = [22, 232, 3, 5, 6, 11];
 
   //  function
-
   type AddTwoNumType = (numOne: number, numTwo: number) => number;
   const addTwoNumType: AddTwoNumType = (a, b) => a + b;
 
