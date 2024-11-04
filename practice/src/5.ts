@@ -24,5 +24,5 @@
   };
 
   const result: string = reverseString("hello");
-  console.log(result);
+  // console.log(result);
 }
