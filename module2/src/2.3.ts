@@ -2,6 +2,7 @@
   // generic type
   type GenericArray<T> = Array<T>;
 
+  // array
   const names: GenericArray<string> = ["rokib", "sakib", "hasan"];
   const numbers: GenericArray<number> = [12, 23, 234, 44, 44];
   const boolArray: GenericArray<boolean> = [true, false, true];

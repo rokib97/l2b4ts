@@ -8,6 +8,7 @@
   };
 
   const res = createArryWithGeneric<number>(120);
+
   const res2 = createArryWithGeneric<string>("Bangladesh");
   type User = {
     id: number;

@@ -16,7 +16,7 @@
     age: 27,
     role: "captain",
   };
-  
+
   interface StudentOneInterface {
     name: string;
     age: number;

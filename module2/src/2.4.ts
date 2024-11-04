@@ -40,7 +40,7 @@
   }
   interface Bike {
     name: string;
-    model: String;
+    model: string;
   }
   const richDeveloper: Developer<DevTwo, string, Bike> = {
     name: "rokib",
