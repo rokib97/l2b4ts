@@ -10,9 +10,12 @@
   type Owner2 = keyof Vehicle;
   const person: Owner2 = "car";
 
+
+
   const getPropertyValue = <X, Y extends keyof X>(obj: X, key: Y): X[Y] => {
     return obj[key];
   };
+
 
   const result = getPropertyValue(
     {
@@ -22,6 +25,8 @@
     },
     "address"
   );
+
+  
   const resul2 = getPropertyValue(
     {
       model: "Yamaha",
