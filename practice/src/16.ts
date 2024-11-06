@@ -11,9 +11,6 @@
     Use keyof to constrain the key to valid properties of the object.
 
      */
-  const getPropertyValue = <X, Y extends keyof X>(obj: X, key: Y): X[Y] => {
-    return obj[key];
-  };
 
   const getProperty = <T, K extends keyof T>(obj: T, key: K): T[K] => {
     return obj[key];
