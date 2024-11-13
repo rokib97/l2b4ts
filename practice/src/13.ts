@@ -6,6 +6,7 @@
     Instructions:
 
     Create a generic function that:
+    
     Accepts an array of any type.
     Returns a new array with duplicate values removed.
      */
@@ -16,7 +17,7 @@
     );
     // const uniqueArray: T[] = [];
     // for (const element of array) {
-    //   if (!uniqueArray.includes(element)) {
+    //   if (!uniqueArray.includes(element)) {     
     //     uniqueArray.push(element);
     //   }
     // }
