@@ -1,9 +1,9 @@
 {
-  "name": "conceptual-two",
+  "name": "typescript-workshop",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/problem-solve/1.ts",
+    "dev": "ts-node-dev --respawn --transpile-only src/func.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
