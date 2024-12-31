@@ -72,3 +72,14 @@ function printSkill(skill: User["skills"][number]) {
 
 printSkills(user.skills);
 printSkill(user.skills[0]);
+
+type CB = (arg1: string, arg2: number) => string;
+
+function testCB(cb: CB) {
+  cb("test", 1);
+}
+
+testCB((arg1, arg2) => {
+  console.log(arg1, arg2);
+  return "test";
+});
