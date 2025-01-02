@@ -49,3 +49,11 @@ export const userData = `{
     }
   ]
 }`;
+
+type ApiRes<T> = { data: T; status: number; message: string };
+
+async function fetchData<T>(url: string): Promise<ApiRes<T>> {
+  const res = await fetch(url);
+  const data = await res.json();
+  return { data, status: res.status, message: res.statusText };
+}
